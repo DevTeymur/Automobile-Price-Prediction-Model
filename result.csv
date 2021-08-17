@@ -1,0 +1,8 @@
+model,MSE,R2 Score,best_score,best_params
+LGBMRegressor,2723607.357762561,0.9464051553527631,0.7755288209199752,"{'learning_rate ': 0.1, 'max_depth': -1, 'n_estimators': 102}"
+Lasso Regression,2383056.045017768,0.9373640089292442,0.7627568844410413,"{'alpha': 0.5, 'selection': 'random'}"
+ElasticNet,1835734.2863173152,0.932274815597993,0.8131517793362333,"{'alpha': 0.01, 'selection': 'random'}"
+Ridge Regression,1845843.1767061262,0.9319018713920778,0.8128217724059003,"{'alpha': 0.8, 'solver': 'svd'}"
+Linear Regression,3690276.6590061584,0.9030051616514102,0.8295552001347491,"{'fit_intercept': False, 'normalize': True, 'positive': True}"
+DecisionTreeRegressor,2848204.9264705884,0.9004849955457676,0.7711834457852158,"{'criterion': 'mse', 'splitter': 'best'}"
+KNeighborsRegeressor,3771454.6743839765,0.8923000008685801,0.791411692940386,"{'algorithm': 'ball_tree', 'n_neighbors': 3, 'weights': 'distance'}"
