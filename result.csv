@@ -1,8 +1,8 @@
 model,MSE,R2 Score,best_score,best_params
-DecisionTreeRegressor,4021326.4509803923,0.9014560006550099,0.8469097975439821,"{'criterion': 'mae', 'splitter': 'random'}"
-Lasso Regression,4091532.7271224144,0.8997355715094311,0.8041707621839098,"{'alpha': 0.05, 'selection': 'random'}"
+Lasso Regression,4036366.3731809244,0.9010874421453876,0.805639332445012,"{'alpha': 0.001, 'selection': 'random'}"
 Ridge Regression,4661351.475454004,0.8857719654588302,0.815338235542226,"{'alpha': 1, 'solver': 'svd'}"
 Linear Regression,5736798.083827526,0.8594177733376472,0.8302619220858709,"{'fit_intercept': False, 'normalize': True, 'positive': True}"
+DecisionTreeRegressor,5752102.274509804,0.859042738837227,0.8223514253625703,"{'criterion': 'mae', 'splitter': 'best'}"
 ElasticNet,6207567.086250864,0.8478814156626475,0.8164974328614226,"{'alpha': 0.05, 'selection': 'cyclic'}"
 KNeighborsRegeressor,6799868.825383203,0.8333668561249945,0.8318106870137699,"{'algorithm': 'auto', 'n_neighbors': 4, 'weights': 'distance'}"
 LGBMRegressor,7178280.654684031,0.8240937430083843,0.7731008951315427,"{'learning_rate': 0.2, 'max_depth': 1, 'n_estimators': 101}"
